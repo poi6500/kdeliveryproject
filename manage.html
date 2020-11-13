@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Company</title>
+<link rel="stylesheet" href="./company.css" media="(min-width:600px)">
+</head>
+<body>
+    <div id="page">
+
+        <header>
+            <div id="logo">
+                  <a href="mainpage.html" target="_blank" title="로그인 페이지 보러가기"><img src="logo2.png" alt="Logo" sytle="width: 10px;"></a>
+            </div>
+
+            <div id="top_menu">
+                <a href="mainpage.html">HOME</a> |
+                <a href="#">NOTICE</a> |
+                <a href="kdelivery.html">LOGIN</a> |
+                <a href="joinmember.html">JOIN</a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">CUSTOMER</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">RECRUIT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="what" style="font-family: 'Jua', sans-serif;">
+          확인하고 싶은 날짜를 입력하세요 <br>
+          <form id="form" method="post" action="">
+            <label for="amount"></label>
+            <div style="float:left;">
+            <input type="text" id="date" /> <input type="button" value= "확인" id="check" onclick="button1_click">
+          </div>
+            <small>Enter date as Month / Day / Year</small>
+          </form>
+        </div>
+
+        <div class = "delcheck" id="delcheck">
+            총 배송건 <br> <input type="number" id="delcheckinput"> 건
+            <br>
+            배송 완료건 <br> <input type="number" id="delcheckinput"> 건
+            <br>
+            미 배송건 <br> <input type="number" id="delcheckinput"> 건
+        </div>
+
+        <footer>
+            <img src="bottom.png" alt="address">
+        </footer>
+
+    </div>
+
+<script type="text/javascript" src="date.js"></script>
+</body>
+</html>

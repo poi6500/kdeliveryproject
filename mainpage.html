@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Company</title>
+
+    <!-- 반응형 웹 만들기 -->
+    <!-- 1. 모바일용 css -->
+    <link rel="stylesheet" href="./company_mobile.css" media="(max-width:600px)">
+
+    <!-- 2. 데스크탑용 외부 스타일시트 적용 -->
+    <link rel="stylesheet" href="./company.css" media="(min-width:600px)">
+</head>
+<body>
+
+    <div id="page">
+
+        <header>
+            <div id="logo">
+                  <a href="mainpage.html" target="_blank" title="로그인 페이지 보러가기"><img src="logo2.png" alt="Logo" sytle="width: 10px;"></a>
+            </div>
+
+            <div id="top_menu">
+                <a href="mainpage.html">HOME</a> |
+                <a href="#">NOTICE</a> |
+                <a href="kdelivery.html">LOGIN</a> |
+                <a href="joinmember.html">JOIN</a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">CUSTOMER</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">RECRUIT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <article id="content">
+            <section id="main">
+                <img src="shortdistrance.jpg" alt="main img" id="centernsize">
+            </section>
+        </article>
+        <div id="what" style="font-family: 'Jua', sans-serif;">
+        무엇을 도와드릴까요?<br>
+        <button id="buttontype" name = "button"><a href="map.html">주소입력</a></button><br>
+        <button id="buttontype" name = "button"><a href="manage.html">업무관리</a></button>
+      </div>
+
+        <footer>
+            <img src="bottom.png" alt="address">
+        </footer>
+
+    </div>
+</body>
+</html>
